@@ -16,7 +16,7 @@
 	<div class="container" id="everypizza">
 	  <div class="row">
 	    <div class="col-sm" v-for="person in peopleList">
-			<div class="card mr-2 mb-2" style="width: 300px;">
+				<div class="card mb-4" style="width: 300px;">
 				<img class="card-img-top" v-bind:src="'images/' + person.image" alt="Card image cap">
 				<div class="card-body">
 				<h5 class="card-title">{{ person.name }}</h5>
@@ -40,11 +40,11 @@
 			el: '#everypizza',
 			data: {
 				peopleList: [
-					{ name: 'Liz', image:'pizza1.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
+					{ name: 'Anna', image:'pizza3.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
+					{ name: 'Clara', image:'pizza5.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
 					{ name: 'John', image:'pizza2.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
-					{ name: 'Alex', image:'pizza3.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
-					{ name: 'Kelly', image:'pizza4.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
-					{ name: 'Chris', image:'pizza5.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' }
+					{ name: 'Liz', image:'pizza1.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
+					{ name: 'Rose', image:'pizza4.jpg', text: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.' },
 				]
 			}
 		})
